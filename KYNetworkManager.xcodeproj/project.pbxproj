@@ -7,20 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A64F1A1EBB157400C80C91 /* KYNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A64F131EBB157400C80C91 /* KYNetworkCache.m */; };
+		00A64F1B1EBB157400C80C91 /* KYNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A64F151EBB157400C80C91 /* KYNetworkConfig.m */; };
+		00A64F1C1EBB157400C80C91 /* KYNetworkLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A64F171EBB157400C80C91 /* KYNetworkLogger.m */; };
+		00A64F1D1EBB157400C80C91 /* KYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A64F191EBB157400C80C91 /* KYNetworkManager.m */; };
 		00E1D2D51E8E0704009C500C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2D41E8E0704009C500C /* main.m */; };
 		00E1D2D81E8E0704009C500C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2D71E8E0704009C500C /* AppDelegate.m */; };
 		00E1D2DB1E8E0704009C500C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2DA1E8E0704009C500C /* ViewController.m */; };
 		00E1D2DE1E8E0704009C500C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E1D2DC1E8E0704009C500C /* Main.storyboard */; };
 		00E1D2E01E8E0704009C500C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E1D2DF1E8E0704009C500C /* Assets.xcassets */; };
 		00E1D2E31E8E0704009C500C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E1D2E11E8E0704009C500C /* LaunchScreen.storyboard */; };
-		00E1D2ED1E8E0745009C500C /* KYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2EC1E8E0745009C500C /* KYNetworkManager.m */; };
-		00E1D2F01E8E08C1009C500C /* KYNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2EF1E8E08C1009C500C /* KYNetworkCache.m */; };
-		00E1D2F31E8E38A3009C500C /* KYNetworkLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2F21E8E38A3009C500C /* KYNetworkLogger.m */; };
-		00E1D2F81E8E3D57009C500C /* KYNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2F71E8E3D57009C500C /* KYNetworkConfig.m */; };
 		FDDB250A736C0687C8AA2546 /* libPods-KYNetworkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79209238CA1BE53BD9F6E4BB /* libPods-KYNetworkManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00A64F111EBB157400C80C91 /* KYNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetwork.h; sourceTree = "<group>"; };
+		00A64F121EBB157400C80C91 /* KYNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkCache.h; sourceTree = "<group>"; };
+		00A64F131EBB157400C80C91 /* KYNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkCache.m; sourceTree = "<group>"; };
+		00A64F141EBB157400C80C91 /* KYNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkConfig.h; sourceTree = "<group>"; };
+		00A64F151EBB157400C80C91 /* KYNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkConfig.m; sourceTree = "<group>"; };
+		00A64F161EBB157400C80C91 /* KYNetworkLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkLogger.h; sourceTree = "<group>"; };
+		00A64F171EBB157400C80C91 /* KYNetworkLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkLogger.m; sourceTree = "<group>"; };
+		00A64F181EBB157400C80C91 /* KYNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkManager.h; sourceTree = "<group>"; };
+		00A64F191EBB157400C80C91 /* KYNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkManager.m; sourceTree = "<group>"; };
 		00E1D2D01E8E0704009C500C /* KYNetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYNetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E1D2D41E8E0704009C500C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00E1D2D61E8E0704009C500C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,15 +40,6 @@
 		00E1D2DF1E8E0704009C500C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00E1D2E21E8E0704009C500C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E1D2E41E8E0704009C500C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E1D2EB1E8E0745009C500C /* KYNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkManager.h; sourceTree = "<group>"; };
-		00E1D2EC1E8E0745009C500C /* KYNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkManager.m; sourceTree = "<group>"; };
-		00E1D2EE1E8E08C1009C500C /* KYNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkCache.h; sourceTree = "<group>"; };
-		00E1D2EF1E8E08C1009C500C /* KYNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkCache.m; sourceTree = "<group>"; };
-		00E1D2F11E8E38A3009C500C /* KYNetworkLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkLogger.h; sourceTree = "<group>"; };
-		00E1D2F21E8E38A3009C500C /* KYNetworkLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkLogger.m; sourceTree = "<group>"; };
-		00E1D2F51E8E3BEA009C500C /* KYNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetwork.h; sourceTree = "<group>"; };
-		00E1D2F61E8E3D57009C500C /* KYNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkConfig.h; sourceTree = "<group>"; };
-		00E1D2F71E8E3D57009C500C /* KYNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkConfig.m; sourceTree = "<group>"; };
 		7734EAE4D6E1266EEAB458A1 /* Pods-KYNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYNetworkManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYNetworkManager/Pods-KYNetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
 		79209238CA1BE53BD9F6E4BB /* libPods-KYNetworkManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYNetworkManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC3F1DD295C0520A4871D61 /* Pods-KYNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYNetworkManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYNetworkManager/Pods-KYNetworkManager.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00A64F101EBB157400C80C91 /* KYNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				00A64F111EBB157400C80C91 /* KYNetwork.h */,
+				00A64F121EBB157400C80C91 /* KYNetworkCache.h */,
+				00A64F131EBB157400C80C91 /* KYNetworkCache.m */,
+				00A64F141EBB157400C80C91 /* KYNetworkConfig.h */,
+				00A64F151EBB157400C80C91 /* KYNetworkConfig.m */,
+				00A64F161EBB157400C80C91 /* KYNetworkLogger.h */,
+				00A64F171EBB157400C80C91 /* KYNetworkLogger.m */,
+				00A64F181EBB157400C80C91 /* KYNetworkManager.h */,
+				00A64F191EBB157400C80C91 /* KYNetworkManager.m */,
+			);
+			path = KYNetwork;
+			sourceTree = "<group>";
+		};
 		00E1D2C71E8E0704009C500C = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +94,7 @@
 		00E1D2D21E8E0704009C500C /* KYNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				00E1D2EA1E8E0724009C500C /* KYNetwork */,
+				00A64F101EBB157400C80C91 /* KYNetwork */,
 				00E1D2D61E8E0704009C500C /* AppDelegate.h */,
 				00E1D2D71E8E0704009C500C /* AppDelegate.m */,
 				00E1D2D91E8E0704009C500C /* ViewController.h */,
@@ -98,23 +114,6 @@
 				00E1D2D41E8E0704009C500C /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		00E1D2EA1E8E0724009C500C /* KYNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				00E1D2EB1E8E0745009C500C /* KYNetworkManager.h */,
-				00E1D2EC1E8E0745009C500C /* KYNetworkManager.m */,
-				00E1D2EE1E8E08C1009C500C /* KYNetworkCache.h */,
-				00E1D2EF1E8E08C1009C500C /* KYNetworkCache.m */,
-				00E1D2F11E8E38A3009C500C /* KYNetworkLogger.h */,
-				00E1D2F21E8E38A3009C500C /* KYNetworkLogger.m */,
-				00E1D2F61E8E3D57009C500C /* KYNetworkConfig.h */,
-				00E1D2F71E8E3D57009C500C /* KYNetworkConfig.m */,
-				00E1D2F51E8E3BEA009C500C /* KYNetwork.h */,
-			);
-			name = KYNetwork;
-			path = KYNetworkManager;
 			sourceTree = "<group>";
 		};
 		28B391040874E245F98AC06E /* Frameworks */ = {
@@ -259,12 +258,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E1D2DB1E8E0704009C500C /* ViewController.m in Sources */,
-				00E1D2F31E8E38A3009C500C /* KYNetworkLogger.m in Sources */,
+				00A64F1D1EBB157400C80C91 /* KYNetworkManager.m in Sources */,
+				00A64F1A1EBB157400C80C91 /* KYNetworkCache.m in Sources */,
 				00E1D2D81E8E0704009C500C /* AppDelegate.m in Sources */,
-				00E1D2F01E8E08C1009C500C /* KYNetworkCache.m in Sources */,
-				00E1D2ED1E8E0745009C500C /* KYNetworkManager.m in Sources */,
+				00A64F1B1EBB157400C80C91 /* KYNetworkConfig.m in Sources */,
+				00A64F1C1EBB157400C80C91 /* KYNetworkLogger.m in Sources */,
 				00E1D2D51E8E0704009C500C /* main.m in Sources */,
-				00E1D2F81E8E3D57009C500C /* KYNetworkConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
