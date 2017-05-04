@@ -13,6 +13,11 @@
 		00E1D2DE1E8E0704009C500C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E1D2DC1E8E0704009C500C /* Main.storyboard */; };
 		00E1D2E01E8E0704009C500C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E1D2DF1E8E0704009C500C /* Assets.xcassets */; };
 		00E1D2E31E8E0704009C500C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E1D2E11E8E0704009C500C /* LaunchScreen.storyboard */; };
+		00E1D2ED1E8E0745009C500C /* KYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2EC1E8E0745009C500C /* KYNetworkManager.m */; };
+		00E1D2F01E8E08C1009C500C /* KYNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2EF1E8E08C1009C500C /* KYNetworkCache.m */; };
+		00E1D2F31E8E38A3009C500C /* KYNetworkLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2F21E8E38A3009C500C /* KYNetworkLogger.m */; };
+		00E1D2F81E8E3D57009C500C /* KYNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E1D2F71E8E3D57009C500C /* KYNetworkConfig.m */; };
+		FDDB250A736C0687C8AA2546 /* libPods-KYNetworkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79209238CA1BE53BD9F6E4BB /* libPods-KYNetworkManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,18 @@
 		00E1D2DF1E8E0704009C500C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00E1D2E21E8E0704009C500C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E1D2E41E8E0704009C500C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E1D2EB1E8E0745009C500C /* KYNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkManager.h; sourceTree = "<group>"; };
+		00E1D2EC1E8E0745009C500C /* KYNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkManager.m; sourceTree = "<group>"; };
+		00E1D2EE1E8E08C1009C500C /* KYNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkCache.h; sourceTree = "<group>"; };
+		00E1D2EF1E8E08C1009C500C /* KYNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkCache.m; sourceTree = "<group>"; };
+		00E1D2F11E8E38A3009C500C /* KYNetworkLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkLogger.h; sourceTree = "<group>"; };
+		00E1D2F21E8E38A3009C500C /* KYNetworkLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkLogger.m; sourceTree = "<group>"; };
+		00E1D2F51E8E3BEA009C500C /* KYNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetwork.h; sourceTree = "<group>"; };
+		00E1D2F61E8E3D57009C500C /* KYNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYNetworkConfig.h; sourceTree = "<group>"; };
+		00E1D2F71E8E3D57009C500C /* KYNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYNetworkConfig.m; sourceTree = "<group>"; };
+		7734EAE4D6E1266EEAB458A1 /* Pods-KYNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYNetworkManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYNetworkManager/Pods-KYNetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
+		79209238CA1BE53BD9F6E4BB /* libPods-KYNetworkManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYNetworkManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC3F1DD295C0520A4871D61 /* Pods-KYNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYNetworkManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYNetworkManager/Pods-KYNetworkManager.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDB250A736C0687C8AA2546 /* libPods-KYNetworkManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,8 @@
 			children = (
 				00E1D2D21E8E0704009C500C /* KYNetworkManager */,
 				00E1D2D11E8E0704009C500C /* Products */,
+				3E5A3248FEE0AB74B1478028 /* Pods */,
+				28B391040874E245F98AC06E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +78,7 @@
 		00E1D2D21E8E0704009C500C /* KYNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				00E1D2EA1E8E0724009C500C /* KYNetwork */,
 				00E1D2D61E8E0704009C500C /* AppDelegate.h */,
 				00E1D2D71E8E0704009C500C /* AppDelegate.m */,
 				00E1D2D91E8E0704009C500C /* ViewController.h */,
@@ -79,6 +100,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		00E1D2EA1E8E0724009C500C /* KYNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				00E1D2EB1E8E0745009C500C /* KYNetworkManager.h */,
+				00E1D2EC1E8E0745009C500C /* KYNetworkManager.m */,
+				00E1D2EE1E8E08C1009C500C /* KYNetworkCache.h */,
+				00E1D2EF1E8E08C1009C500C /* KYNetworkCache.m */,
+				00E1D2F11E8E38A3009C500C /* KYNetworkLogger.h */,
+				00E1D2F21E8E38A3009C500C /* KYNetworkLogger.m */,
+				00E1D2F61E8E3D57009C500C /* KYNetworkConfig.h */,
+				00E1D2F71E8E3D57009C500C /* KYNetworkConfig.m */,
+				00E1D2F51E8E3BEA009C500C /* KYNetwork.h */,
+			);
+			name = KYNetwork;
+			path = KYNetworkManager;
+			sourceTree = "<group>";
+		};
+		28B391040874E245F98AC06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79209238CA1BE53BD9F6E4BB /* libPods-KYNetworkManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E5A3248FEE0AB74B1478028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7734EAE4D6E1266EEAB458A1 /* Pods-KYNetworkManager.debug.xcconfig */,
+				EBC3F1DD295C0520A4871D61 /* Pods-KYNetworkManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E1D2E71E8E0704009C500C /* Build configuration list for PBXNativeTarget "KYNetworkManager" */;
 			buildPhases = (
+				4AFA84D761EA7C476BC4E1A7 /* [CP] Check Pods Manifest.lock */,
 				00E1D2CC1E8E0704009C500C /* Sources */,
 				00E1D2CD1E8E0704009C500C /* Frameworks */,
 				00E1D2CE1E8E0704009C500C /* Resources */,
+				EC070FDB81F106C0B15874B7 /* [CP] Embed Pods Frameworks */,
+				73ACB64F01A7AB59DC8001EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +163,7 @@
 		00E1D2C81E8E0704009C500C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KY;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Jeffrey hu";
 				TargetAttributes = {
@@ -146,14 +205,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AFA84D761EA7C476BC4E1A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73ACB64F01A7AB59DC8001EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYNetworkManager/Pods-KYNetworkManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC070FDB81F106C0B15874B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYNetworkManager/Pods-KYNetworkManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00E1D2CC1E8E0704009C500C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				00E1D2DB1E8E0704009C500C /* ViewController.m in Sources */,
+				00E1D2F31E8E38A3009C500C /* KYNetworkLogger.m in Sources */,
 				00E1D2D81E8E0704009C500C /* AppDelegate.m in Sources */,
+				00E1D2F01E8E08C1009C500C /* KYNetworkCache.m in Sources */,
+				00E1D2ED1E8E0745009C500C /* KYNetworkManager.m in Sources */,
 				00E1D2D51E8E0704009C500C /* main.m in Sources */,
+				00E1D2F81E8E3D57009C500C /* KYNetworkConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +380,7 @@
 		};
 		00E1D2E81E8E0704009C500C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7734EAE4D6E1266EEAB458A1 /* Pods-KYNetworkManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KR9G98P8SN;
@@ -281,6 +393,7 @@
 		};
 		00E1D2E91E8E0704009C500C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC3F1DD295C0520A4871D61 /* Pods-KYNetworkManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KR9G98P8SN;
@@ -310,6 +423,7 @@
 				00E1D2E91E8E0704009C500C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
